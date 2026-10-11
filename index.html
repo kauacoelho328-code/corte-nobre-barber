@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Corte Nobre Barber</title>
+
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{background:#111;color:#fff;font-family:Arial,sans-serif;line-height:1.6}
+
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #333}
+
+.logo{font-size:22px;font-weight:bold;color:#d9a441}
+
+nav a{color:white;text-decoration:none;margin-left:15px}
+
+.hero{text-align:center;padding:100px 20px;background:linear-gradient(#0009,#000c),url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1400&q=80') center/cover}
+
+.hero h1{font-size:clamp(35px,7vw,60px);line-height:1.15;margin-bottom:20px}
+
+.gold{color:#d9a441}
+
+.hero p{margin:15px auto 25px;max-width:550px;color:#ddd}
+
+.btn{display:inline-block;background:#d9a441;color:#111;padding:13px 25px;text-decoration:none;font-weight:bold;border-radius:4px}
+
+section{padding:65px 7%;text-align:center}
+
+h2{font-size:32px;margin-bottom:15px}
+
+.subtitle{color:#bbb;margin-bottom:30px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:30px}
+
+.card{background:#1d1d1d;padding:28px 20px;border:1px solid #333;border-radius:8px}
+
+.card h3{color:#d9a441;margin-bottom:10px}
+
+.price{font-size:24px;font-weight:bold;margin:15px 0}
+
+.dark{background:#191919}
+
+.contact p{margin:10px}
+
+footer{padding:25px;text-align:center;border-top:1px solid #333;color:#aaa;font-size:13px}
+
+@media(max-width:500px){header{flex-direction:column;gap:12px}nav a{margin:0 7px}.hero{padding:75px 15px}}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">CORTE <span class="gold">NOBRE</span></div>
+
+<nav>
+
+<a href="#inicio">Início</a>
+
+<a href="#servicos">Serviços</a>
+
+<a href="#contato">Contato</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+
+<p class="gold">ESTILO • QUALIDADE • TRADIÇÃO</p>
+
+<h1>Seu estilo merece<br><span class="gold">um corte nobre.</span></h1>
+
+<p>Mais que um corte, uma experiência. Venha renovar seu visual com a gente!</p>
+
+<a class="btn" href="#servicos">VER SERVIÇOS</a>
+
+</section>
+
+<section id="servicos">
+
+<h2>Nossos serviços</h2>
+
+<p class="subtitle">Escolha o cuidado ideal para você.</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Corte masculino</h3>
+
+<p>Um corte feito para combinar com seu estilo.</p>
+
+<div class="price">R$ 35</div>
+
+</div>
+
+<div class="card">
+
+<h3>Barba</h3>
+
+<p>Acabamento e cuidado para sua barba.</p>
+
+<div class="price">R$ 20</div>
+
+</div>
+
+<div class="card">
+
+<h3>Corte + barba</h3>
+
+<p>O visual completo em um só atendimento.</p>
+
+<div class="price">R$ 50</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dark">
+
+<h2>Seu visual, <span class="gold">nossa missão.</span></h2>
+
+<p class="subtitle">Atendimento com atenção aos detalhes e dedicação a cada cliente.</p>
+
+<a class="btn" href="#contato">FALE CONOSCO</a>
+
+</section>
+
+<section class="contact" id="contato">
+
+<h2>Agende seu horário</h2>
+
+<p>Entre em contato para consultar horários disponíveis.</p>
+
+<p class="subtitle">Personalize esta seção com o WhatsApp da sua barbearia.</p>
+
+</section>
+
+</main>
+
+<footer>
+
+© 2026 Corte Nobre Barber • Todos os direitos reservados.
+
+</footer>
+
+</body>
+
+</html>
